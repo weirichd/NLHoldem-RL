@@ -1,9 +1,9 @@
 [tool.poetry]
-name = "{{package_name}}"
+name = "nlholdem"
 version = "0.1.0"
 description = "Machine Learning / Deep Learning Project Template"
 authors = ["Your Name <you@example.com>"]
-packages = [{ include = "{{package_name}}", from = "src" }]
+packages = [{ include = "nlholdem", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
