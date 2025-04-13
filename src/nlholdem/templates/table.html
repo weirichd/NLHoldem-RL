@@ -27,11 +27,13 @@
 
     <div class="board">
         <div class="cards">
-          <div class="card c-ah"></div>
-          <div class="card c-kh"></div>
-          <div class="card c-qs"></div>
-          <div class="card empty"></div>
-          <div class="card empty"></div>
+            {% for card in board_cards %}
+                <div class="card c-{{ card }}"></div>
+            {% endfor %}
+
+            {% for _ in range(5 - board_cards|length) %}
+                <div class="card empty"></div>
+            {% endfor %}
         </div>
         <div class="pot">Pot: $25</div>
     </div>
