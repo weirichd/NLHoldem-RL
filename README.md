@@ -1,7 +1,9 @@
-# ML Template
+# No Limit Texas Holdem AI
 
-Machine Learning / Deep Learning Project Template
-Supports local development, Dockerized training & serving, MLflow tracking, GPU/CPU flexibility.
+This is my repo to test out a NL holdem poker AI.
+
+_This README is still based on the template default. I will update it when there is more to say._
+
 
 ---
 
