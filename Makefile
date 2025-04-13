@@ -65,7 +65,7 @@ test: ## Run tests
 ci: lint test ## Run pre-commit and tests (local CI)
 
 notebook: ## Run local Jupyter Notebook
-	poetry run notebook
+	poetry run jupyter notebook
 
 shell: ## Run IPython shell
 	poetry run ipython
